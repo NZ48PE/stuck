@@ -45,6 +45,9 @@ for(int i = 1; i<=100; i++){
 
 
 
+
+
+
 /* Printer valuta fra 1 til 100 ud, mangler dog endnu funktioner, problemer med i. :)
 
 
@@ -79,13 +82,13 @@ int main(void) {
             dollarIEuro = i * 6.66;
             printf("%d = %lf \n", sum, dollarIEuro);
         }
-    }else if(valuta == 'e'){
+    }else if(valuta == 'r'){
         for (int i = 1; i <= 100; ++i) {
             sum = i;
             dollarIEuro = i * 66.43;
             printf("%d = %lf \n", sum, dollarIEuro);
         }
-    }else if(valuta == 'e'){
+    }else if(valuta == 'y'){
         for (int i = 1; i <= 100; ++i) {
             sum = i;
             dollarIEuro = i * 119.9;
@@ -98,16 +101,17 @@ int main(void) {
     return 0;
 }
 
-void dollar_i_valuta(double *dollarUserInput, double *dollarIEuro, char *valuta, int *sum){
-
-}
-
-
 void get_input(double *dollarUserInput, char *valuta){
     // printf("Skriv et antal af doller: ");
     // scanf(" %lf", dollarUserInput);
     printf("Vaelg Euro, Kroner, Rubler eller Yen (e,k,r,y): ");
     scanf(" %c", valuta);
+}
+
+
+
+void dollar_i_valuta(double *dollarUserInput, double *dollarIEuro, char *valuta, int *sum){
+
 }
 
 */
