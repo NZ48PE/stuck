@@ -47,17 +47,17 @@ for(int i = 1; i<=100; i++){
 
 
 
+/* Printer valuta fra 1 til 100 ud, mangler dog endnu funktioner, problemer med i. :) */
 
-/* Printer valuta fra 1 til 100 ud, mangler dog endnu funktioner, problemer med i. :)
-
-
-#include <stdio.h>
 /* Skriv et C program som konverterer valuta i dollars til euro, kroner, rubler og yen. I kan antage en én dollar er
  * 0.89 euros, 6.66 kroner, 66.43 rubler og 119.9 yen.
 I denne opgave skal der indgå en funktion med én input parameter (dollar-beløbet), og fire output parametre
  (svarende til de fire andre valutaer).
 Brug funktionen til at udskrive en omregningstabel til omregning af 1, 2, 3, ... 100 dollars til de fire andre valutaer.*/
 
+
+/*
+#include <stdio.h>
 
 void dollar_i_valuta(double *dollarUserInput, double *dollarIEuro, char *valuta, int *sum);
 void get_input(double *dollarUserInput, char *valuta);
@@ -113,5 +113,5 @@ void get_input(double *dollarUserInput, char *valuta){
 void dollar_i_valuta(double *dollarUserInput, double *dollarIEuro, char *valuta, int *sum){
 
 }
-
 */
+
