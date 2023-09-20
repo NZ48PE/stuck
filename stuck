@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+//double penge (double *euro, double *kroner, double *rubler, double *yen, double dollar);
+
+
+
+int main(void) {
+
+   double dollar , euro=0.89,kroner= 6.66, rubler= 66.43, yen=119.9;
+    /*printf("indtast dollars:\n");
+    scanf("%lf", &dollar);
+
+    penge (&euro, &kroner, &rubler, &yen,dollar);
+
+    printf("euro = %.2lf\nkroner = %.2lf\nrubler = %.3lf\nyen = %.3lf\n",euro, kroner, rubler ,yen);
+
+*/
+    char valuta;
+    printf("hvilke valuta e ,k, r, y?:\n");
+    scanf("%c",&valuta);
+if (valuta=='e'){
+
+for(int i = 1; i<=100; i++){
+    i *= 1;
+    printf("%d\n",i);
+}
+
+
+}
+
+
+
+
+    return 0;
+
+}
+/*double penge (double *euro, double *kroner, double *rubler, double *yen, double dollar){
+
+    *euro = 0.89* dollar;
+    *kroner = 6.66 * dollar;
+    *rubler= 66.43 *dollar;
+    *yen = 119.9 *dollar;
+
+}*/
